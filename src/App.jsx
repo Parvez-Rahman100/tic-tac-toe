@@ -1,7 +1,23 @@
+import Square from "./Components/Square";
+
 function App() {
   return (
     <>
-      <p className="text-6xl text-red-500">Hello World</p>
+      <div>
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div>
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div>
+        <Square />
+        <Square />
+        <Square />
+      </div>
     </>
   );
 }
