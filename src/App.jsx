@@ -15,7 +15,7 @@ function App() {
   }
 
   const handleClick = (i) => {
-    if (squares[i]) {
+    if (squares[i] || CalculateWinner(squares)) {
       return;
     }
     const nextSquare = squares.slice();
